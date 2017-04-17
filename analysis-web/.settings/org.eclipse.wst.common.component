@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="analysis-web">
+        <wb-resource deploy-path="/WEB-INF/web.xml" source-path="/webapp/WEB-INF/web.xml"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/config"/>
+        <dependent-module archiveName="analysis-service-0.0.2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/analysis-service/analysis-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/analysis-web/target/classes"/>
+        <property name="context-root" value="analysis-web"/>
+    </wb-module>
+</project-modules>
